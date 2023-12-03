@@ -45,4 +45,28 @@ To run the Mistral LLM Chatbot, follow these steps:
     ```
 
 ## Project Structure
-
+MistralLLM-Chatbot/
+│
+├── assets/ # Contains project images and assets
+│ ├── 91429511/ # Subdirectory for specific project images
+│ │ ├── 6723edc9-5bc6-4372-ae54-5af49b99104a.png # Mistral LLM Logo
+│ │ ├── ae533043-dff0-44f9-bf03-2f903a5e0f19.png # Chatbot Demo
+│ │ └── ... # Additional project images
+│ └── ... # Other asset files
+│
+├── src/ # Source code files
+│ ├── chatbot.py # Main chatbot implementation
+│ ├── data_processing/ # Module for data processing utilities
+│ │ ├── preprocess.py # Script for preprocessing text data
+│ │ └── ... # Additional data processing scripts
+│ └── ... # Other project source files
+│
+├── tests/ # Unit tests for the project
+│ ├── test_chatbot.py # Test cases for the chatbot
+│ └── ... # Additional test files
+│
+├── .gitignore # Gitignore file
+├── LICENSE # License file
+├── README.md # Project README file
+├── requirements.txt # List of project dependencies
+└── .editorconfig # Editor configuration file
