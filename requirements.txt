@@ -1,0 +1,8 @@
+accelerate==0.5.1
+peft==0.3.7
+bitsandbytes==1.0.1
+git+https://github.com/huggingface/transformers
+trl==0.1.0
+py7zr==0.20.0
+auto-gptq==1.2.0
+optimum==1.2.3
